@@ -38,6 +38,8 @@ pip install -r requirements.txt
    - `Variance - BL Project Finish Date`
    - `Variance - BL Project Duration`
    - `Total Float`
+   
+   **Primavera P6 Users**: You can generate the required Excel file using the Primavera layout `SCATTER Finish and Duration Variance.plf`. Simply import this layout into Primavera P6 and export your project data.
 
 2. Run the visualization using the simple script:
    ```python
@@ -63,6 +65,19 @@ pip install -r requirements.txt
 - **Excel export**: Categorized activities exported to separate Excel sheets for further analysis
 - **Performance insights**: Quick visual identification of critical activities requiring attention
 - **Export capabilities**: The interactive HTML allows downloading as PNG directly from the browser
+
+## Data Preparation
+
+### Generating data from Primavera P6
+
+To generate the input Excel file from Primavera P6:
+
+1. Import the layout file `SCATTER Finish and Duration Variance.plf` into Primavera P6
+2. Apply the layout to your project view
+3. Export the data to Excel format (File > Export)
+4. Save the file as `SCATTER Finish and Duration Variance.xlsx` in the same directory as the scripts
+
+This layout is specifically configured to export the required columns in the correct format.
 
 ## Customization
 
