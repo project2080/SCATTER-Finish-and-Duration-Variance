@@ -91,4 +91,4 @@ fig, statistics = create_interactive_scatter_plot(
 
 ## License
 
-MIT
+This project is under the Apache License. See LICENSE file for details.
